@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int marks;
+    cout<< " enter the your marks" << endl;
+    cin >> marks;
+     
+     if (marks>=80){
+        cout<< " your grade is a" << endl;
+     }
+     else if(marks>=60){
+        cout<< " your grade is b" << endl;
+     }
+     else if(marks>=50){
+        cout<< " your grade is c"<< endl;
+
+     } 
+     else if ( marks>=45){
+        cout<< " your grade is d"<< endl; 
+     }
+     else if ( marks>=25){
+        cout<< " your grade is e"<< endl;
+     }
+     else if (marks<25){
+        cout<< " your grade is f"<< endl;
+
+     } else {
+        cout<< " enter the valid numbers"<< endl;
+     }
+}
+
+
+
+//  https://github.com/praveenkumar9767 //
